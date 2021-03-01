@@ -163,7 +163,7 @@ ui <- fixedPage(
                             )
                    ),
                    rHandsontableOutput("table"),
-                   p("Estimated raster:", id = "e_text"),
+                   p("Estimated cell:", id = "e_text"),
                    fixedRow(id = "exey",
                      column(3,
                             numericInput("ex", "X", 8, 1, Inf, 1)),
